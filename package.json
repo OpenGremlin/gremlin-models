@@ -5,7 +5,7 @@
   "license": "MIT",
   "exports": {
     ".": "./dist/index.js",
-    "./models.json": "./data/models.json"
+    "./models.json": "./models.json"
   },
   "scripts": {
     "build": "tsc",

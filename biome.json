@@ -24,7 +24,7 @@
   },
   "files": {
     "include": ["src/**", "scripts/**"],
-    "ignore": ["dist", "data", "node_modules"]
+    "ignore": ["dist", "models.json", "node_modules"]
   },
   "overrides": [
     {

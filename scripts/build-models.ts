@@ -37,9 +37,7 @@ async function main() {
     console.log(`Applied ${applied}/${augKeys.length} augmentations`);
   }
 
-  const outDir = resolve(ROOT, "data");
-  mkdirSync(outDir, { recursive: true });
-  const outPath = resolve(outDir, "models.json");
+  const outPath = resolve(ROOT, "models.json");
   writeFileSync(outPath, `${JSON.stringify(models, null, 2)}\n`);
   console.log(`Wrote ${outPath} (${modelCount} models)`);
 }
