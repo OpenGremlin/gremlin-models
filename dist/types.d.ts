@@ -12,6 +12,7 @@ export interface ModelEntry {
     inputCostPerImageToken?: number;
     outputCostPerImage?: number;
     outputCostPerImageToken?: number;
+    supportsReasoning?: boolean;
     maxInputImageSize?: number;
 }
 export type Augmentation = Partial<Omit<ModelEntry, "provider">>;
@@ -25,6 +26,7 @@ export interface LiteLLMEntry {
     input_cost_per_token?: number;
     output_cost_per_token?: number;
     supports_vision?: boolean;
+    supports_reasoning?: boolean;
     supported_modalities?: string[];
     supported_output_modalities?: string[];
     input_cost_per_image?: number;

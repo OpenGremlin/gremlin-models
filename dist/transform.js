@@ -42,6 +42,8 @@ export function transform(raw) {
             model.outputCostPerImage = entry.output_cost_per_image;
         if (entry.output_cost_per_image_token != null)
             model.outputCostPerImageToken = entry.output_cost_per_image_token;
+        if (entry.supports_reasoning)
+            model.supportsReasoning = true;
         result[key] = model;
     }
     return result;
