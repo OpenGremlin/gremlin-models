@@ -20,4 +20,8 @@ export const SUPPORTED_PROVIDERS = [
 
 export type SupportedProvider = (typeof SUPPORTED_PROVIDERS)[number];
 
-export const SUPPORTED_MODES = ["chat", "image_generation"] as const;
+export const SUPPORTED_MODES = [
+  "chat",
+  "image_generation",
+  "audio_speech",
+] as const;

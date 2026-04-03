@@ -1144,6 +1144,20 @@
       "text"
     ]
   },
+  "bedrock/ap-northeast-1/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3.6e-7,
+    "outputCostPerToken": 0.00000144,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
+  },
   "bedrock/ap-northeast-1/moonshotai.kimi-k2-thinking": {
     "provider": "bedrock",
     "mode": "chat",
@@ -1267,6 +1281,20 @@
       "text"
     ]
   },
+  "bedrock/ap-south-1/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3.6e-7,
+    "outputCostPerToken": 0.00000144,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
+  },
   "bedrock/ap-south-1/moonshotai.kimi-k2-thinking": {
     "provider": "bedrock",
     "mode": "chat",
@@ -1308,6 +1336,20 @@
       "text"
     ]
   },
+  "bedrock/ap-southeast-2/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3.09e-7,
+    "outputCostPerToken": 0.000001236,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
+  },
   "bedrock/ap-southeast-3/deepseek.v3.2": {
     "provider": "bedrock",
     "mode": "chat",
@@ -1334,6 +1376,20 @@
     "supportedOutputModalities": [
       "text"
     ]
+  },
+  "bedrock/ap-southeast-3/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3.6e-7,
+    "outputCostPerToken": 0.00000144,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
   },
   "bedrock/ap-southeast-3/moonshotai.kimi-k2.5": {
     "provider": "bedrock",
@@ -1414,6 +1470,20 @@
     "supportedOutputModalities": [
       "text"
     ]
+  },
+  "bedrock/eu-north-1/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3.6e-7,
+    "outputCostPerToken": 0.00000144,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
   },
   "bedrock/eu-north-1/moonshotai.kimi-k2.5": {
     "provider": "bedrock",
@@ -1547,6 +1617,20 @@
       "text"
     ]
   },
+  "bedrock/eu-central-1/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3.6e-7,
+    "outputCostPerToken": 0.00000144,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
+  },
   "bedrock/eu-central-1/qwen.qwen3-coder-next": {
     "provider": "bedrock",
     "mode": "chat",
@@ -1599,6 +1683,20 @@
       "text"
     ]
   },
+  "bedrock/eu-west-1/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3.6e-7,
+    "outputCostPerToken": 0.00000144,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
+  },
   "bedrock/eu-west-1/qwen.qwen3-coder-next": {
     "provider": "bedrock",
     "mode": "chat",
@@ -1650,6 +1748,20 @@
     "supportedOutputModalities": [
       "text"
     ]
+  },
+  "bedrock/eu-west-2/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 4.7e-7,
+    "outputCostPerToken": 0.00000186,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
   },
   "bedrock/eu-west-2/qwen.qwen3-coder-next": {
     "provider": "bedrock",
@@ -1715,6 +1827,20 @@
     "supportedOutputModalities": [
       "text"
     ]
+  },
+  "bedrock/eu-south-1/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3.6e-7,
+    "outputCostPerToken": 0.00000144,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
   },
   "bedrock/eu-south-1/qwen.qwen3-coder-next": {
     "provider": "bedrock",
@@ -1795,6 +1921,20 @@
     "supportedOutputModalities": [
       "text"
     ]
+  },
+  "bedrock/sa-east-1/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3.6e-7,
+    "outputCostPerToken": 0.00000144,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
   },
   "bedrock/sa-east-1/moonshotai.kimi-k2-thinking": {
     "provider": "bedrock",
@@ -2034,6 +2174,20 @@
       "text"
     ]
   },
+  "bedrock/us-east-1/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3e-7,
+    "outputCostPerToken": 0.0000012,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
+  },
   "bedrock/us-east-1/moonshotai.kimi-k2-thinking": {
     "provider": "bedrock",
     "mode": "chat",
@@ -2101,6 +2255,20 @@
     "supportedOutputModalities": [
       "text"
     ]
+  },
+  "bedrock/us-east-2/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3e-7,
+    "outputCostPerToken": 0.0000012,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
   },
   "bedrock/us-east-2/moonshotai.kimi-k2-thinking": {
     "provider": "bedrock",
@@ -2228,8 +2396,8 @@
     "provider": "bedrock",
     "mode": "chat",
     "maxInputTokens": 200000,
-    "inputCostPerToken": 0.0000033,
-    "outputCostPerToken": 0.0000165,
+    "inputCostPerToken": 0.0000036,
+    "outputCostPerToken": 0.000018,
     "supportedModalities": [
       "text",
       "image"
@@ -2365,8 +2533,8 @@
     "provider": "bedrock",
     "mode": "chat",
     "maxInputTokens": 200000,
-    "inputCostPerToken": 0.0000033,
-    "outputCostPerToken": 0.0000165,
+    "inputCostPerToken": 0.0000036,
+    "outputCostPerToken": 0.000018,
     "supportedModalities": [
       "text",
       "image"
@@ -2598,6 +2766,20 @@
     "supportedOutputModalities": [
       "text"
     ]
+  },
+  "bedrock/us-west-2/minimax.minimax-m2.5": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3e-7,
+    "outputCostPerToken": 0.0000012,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
   },
   "bedrock/us-west-2/moonshotai.kimi-k2-thinking": {
     "provider": "bedrock",
@@ -4809,6 +4991,12 @@
     ],
     "supportsReasoning": true
   },
+  "gemini/gemini-2.5-flash-preview-tts": {
+    "provider": "gemini",
+    "mode": "audio_speech",
+    "inputCostPerToken": 3e-7,
+    "outputCostPerToken": 0.0000025
+  },
   "gemini/gemini-2.5-pro": {
     "provider": "gemini",
     "mode": "chat",
@@ -5717,6 +5905,19 @@
       "text"
     ]
   },
+  "gpt-4o-mini-tts": {
+    "provider": "openai",
+    "mode": "audio_speech",
+    "inputCostPerToken": 0.0000025,
+    "outputCostPerToken": 0.00001,
+    "supportedModalities": [
+      "text",
+      "audio"
+    ],
+    "supportedOutputModalities": [
+      "audio"
+    ]
+  },
   "gpt-4o-realtime-preview": {
     "provider": "openai",
     "mode": "chat",
@@ -6456,6 +6657,11 @@
     ],
     "supportsReasoning": true
   },
+  "groq/playai-tts": {
+    "provider": "groq",
+    "mode": "audio_speech",
+    "maxInputTokens": 10000
+  },
   "groq/qwen/qwen3-32b": {
     "provider": "groq",
     "mode": "chat",
@@ -6812,6 +7018,36 @@
     "supportedOutputModalities": [
       "text"
     ]
+  },
+  "minimax.minimax-m2.5": {
+    "provider": "bedrock_converse",
+    "mode": "chat",
+    "maxInputTokens": 1000000,
+    "inputCostPerToken": 3e-7,
+    "outputCostPerToken": 0.0000012,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
+  },
+  "minimax/speech-02-hd": {
+    "provider": "minimax",
+    "mode": "audio_speech"
+  },
+  "minimax/speech-02-turbo": {
+    "provider": "minimax",
+    "mode": "audio_speech"
+  },
+  "minimax/speech-2.6-hd": {
+    "provider": "minimax",
+    "mode": "audio_speech"
+  },
+  "minimax/speech-2.6-turbo": {
+    "provider": "minimax",
+    "mode": "audio_speech"
   },
   "minimax/MiniMax-M2.1": {
     "provider": "minimax",
@@ -7738,6 +7974,20 @@
     "supportedOutputModalities": [
       "text"
     ]
+  },
+  "nvidia.nemotron-super-3-120b": {
+    "provider": "bedrock_converse",
+    "mode": "chat",
+    "maxInputTokens": 256000,
+    "inputCostPerToken": 1.5e-7,
+    "outputCostPerToken": 6.5e-7,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
   },
   "o1": {
     "provider": "openai",
@@ -8796,6 +9046,14 @@
       "text"
     ]
   },
+  "tts-1": {
+    "provider": "openai",
+    "mode": "audio_speech"
+  },
+  "tts-1-hd": {
+    "provider": "openai",
+    "mode": "audio_speech"
+  },
   "us.amazon.nova-lite-v1:0": {
     "provider": "bedrock_converse",
     "mode": "chat",
@@ -9781,6 +10039,20 @@
     "maxInputTokens": 200000,
     "inputCostPerToken": 7e-8,
     "outputCostPerToken": 4e-7,
+    "supportedModalities": [
+      "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
+  },
+  "zai.glm-5": {
+    "provider": "bedrock_converse",
+    "mode": "chat",
+    "maxInputTokens": 200000,
+    "inputCostPerToken": 0.000001,
+    "outputCostPerToken": 0.0000032,
     "supportedModalities": [
       "text"
     ],
@@ -12570,6 +12842,40 @@
       "text"
     ]
   },
+  "tts-1-1106": {
+    "provider": "openai",
+    "mode": "audio_speech"
+  },
+  "tts-1-hd-1106": {
+    "provider": "openai",
+    "mode": "audio_speech"
+  },
+  "gpt-4o-mini-tts-2025-03-20": {
+    "provider": "openai",
+    "mode": "audio_speech",
+    "inputCostPerToken": 0.0000025,
+    "outputCostPerToken": 0.00001,
+    "supportedModalities": [
+      "text",
+      "audio"
+    ],
+    "supportedOutputModalities": [
+      "audio"
+    ]
+  },
+  "gpt-4o-mini-tts-2025-12-15": {
+    "provider": "openai",
+    "mode": "audio_speech",
+    "inputCostPerToken": 0.0000025,
+    "outputCostPerToken": 0.00001,
+    "supportedModalities": [
+      "text",
+      "audio"
+    ],
+    "supportedOutputModalities": [
+      "audio"
+    ]
+  },
   "gpt-5-search-api": {
     "provider": "openai",
     "mode": "chat",
@@ -12813,6 +13119,12 @@
     ],
     "inputCostPerImageToken": 0.000001
   },
+  "gemini-2.5-flash-preview-tts": {
+    "provider": "gemini",
+    "mode": "audio_speech",
+    "inputCostPerToken": 3e-7,
+    "outputCostPerToken": 0.0000025
+  },
   "gemini-flash-latest": {
     "provider": "gemini",
     "mode": "chat",
@@ -12948,6 +13260,36 @@
     "outputCostPerToken": 3e-7,
     "supportedModalities": [
       "text"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
+  },
+  "bedrock/us-gov-east-1/anthropic.claude-haiku-4-5-20251001-v1:0": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 200000,
+    "inputCostPerToken": 0.0000012,
+    "outputCostPerToken": 0.000006,
+    "supportedModalities": [
+      "text",
+      "image"
+    ],
+    "supportedOutputModalities": [
+      "text"
+    ],
+    "supportsReasoning": true
+  },
+  "bedrock/us-gov-west-1/anthropic.claude-haiku-4-5-20251001-v1:0": {
+    "provider": "bedrock",
+    "mode": "chat",
+    "maxInputTokens": 200000,
+    "inputCostPerToken": 0.0000012,
+    "outputCostPerToken": 0.000006,
+    "supportedModalities": [
+      "text",
+      "image"
     ],
     "supportedOutputModalities": [
       "text"
