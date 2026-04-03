@@ -16,6 +16,7 @@ export const SUPPORTED_PROVIDERS = [
     "dashscope",
     "cohere",
     "cohere_chat",
+    "elevenlabs",
 ];
 export const SUPPORTED_MODES = [
     "chat",

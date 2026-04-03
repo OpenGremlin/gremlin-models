@@ -16,6 +16,7 @@ export const SUPPORTED_PROVIDERS = [
   "dashscope",
   "cohere",
   "cohere_chat",
+  "elevenlabs",
 ] as const;
 
 export type SupportedProvider = (typeof SUPPORTED_PROVIDERS)[number];

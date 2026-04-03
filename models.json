@@ -3842,6 +3842,14 @@
     ],
     "supportsReasoning": true
   },
+  "elevenlabs/eleven_v3": {
+    "provider": "elevenlabs",
+    "mode": "audio_speech"
+  },
+  "elevenlabs/eleven_multilingual_v2": {
+    "provider": "elevenlabs",
+    "mode": "audio_speech"
+  },
   "eu.amazon.nova-lite-v1:0": {
     "provider": "bedrock_converse",
     "mode": "chat",
