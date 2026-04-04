@@ -6,6 +6,14 @@ const supportedModeSet = new Set<string>(SUPPORTED_MODES);
 
 export const SAMPLE_SPEC_KEY = "sample_spec";
 
+/**
+ * LiteLLM stores size/quality pricing variants as separate keys like
+ * "hd/1024-x-1024/dall-e-3" or "1024-x-1024/50-steps/stability.sd3".
+ * These aren't real model IDs — they're cost breakdowns. Filter them out.
+ */
+const SIZE_QUALITY_PREFIX =
+  /^(?:[\w]+-x-[\w]+|hd|standard|high|medium|low|\d+-steps)(?:\/|$)/;
+
 export function transform(raw: LiteLLMData): Record<string, ModelEntry> {
   const result: Record<string, ModelEntry> = {};
 
@@ -14,6 +22,14 @@ export function transform(raw: LiteLLMData): Record<string, ModelEntry> {
     if (!entry || typeof entry !== "object") continue;
     if (!supportedProviderSet.has(entry.litellm_provider)) continue;
     if (!entry.mode || !supportedModeSet.has(entry.mode)) continue;
+
+    // Skip size/quality pricing variants — check the full key and every
+    // segment after a "/" so we catch both "hd/1024-x-1024/dall-e-3" and
+    // "fireworks_ai/1024-x-1024/model-name" patterns.
+    if (SIZE_QUALITY_PREFIX.test(key)) continue;
+    const segments = key.split("/");
+    if (segments.length > 1 && segments.some((s) => SIZE_QUALITY_PREFIX.test(s)))
+      continue;
 
     const mode = entry.mode as ModelMode;
     const defaultModalities = mode === "chat" ? ["text"] : undefined;

@@ -1,46 +1,4 @@
 {
-  "1024-x-1024/50-steps/bedrock/amazon.nova-canvas-v1:0": {
-    "provider": "bedrock",
-    "mode": "image_generation",
-    "maxInputTokens": 2600,
-    "outputCostPerImage": 0.06
-  },
-  "1024-x-1024/50-steps/stability.stable-diffusion-xl-v1": {
-    "provider": "bedrock",
-    "mode": "image_generation",
-    "maxInputTokens": 77,
-    "outputCostPerImage": 0.04
-  },
-  "1024-x-1024/dall-e-2": {
-    "provider": "openai",
-    "mode": "image_generation"
-  },
-  "1024-x-1024/max-steps/stability.stable-diffusion-xl-v1": {
-    "provider": "bedrock",
-    "mode": "image_generation",
-    "maxInputTokens": 77,
-    "outputCostPerImage": 0.08
-  },
-  "256-x-256/dall-e-2": {
-    "provider": "openai",
-    "mode": "image_generation"
-  },
-  "512-x-512/50-steps/stability.stable-diffusion-xl-v0": {
-    "provider": "bedrock",
-    "mode": "image_generation",
-    "maxInputTokens": 77,
-    "outputCostPerImage": 0.018
-  },
-  "512-x-512/dall-e-2": {
-    "provider": "openai",
-    "mode": "image_generation"
-  },
-  "512-x-512/max-steps/stability.stable-diffusion-xl-v0": {
-    "provider": "bedrock",
-    "mode": "image_generation",
-    "maxInputTokens": 77,
-    "outputCostPerImage": 0.036
-  },
   "ai21.j2-mid-v1": {
     "provider": "bedrock",
     "mode": "chat",
@@ -107,6 +65,12 @@
     ]
   },
   "amazon.nova-canvas-v1:0": {
+    "provider": "bedrock",
+    "mode": "image_generation",
+    "maxInputTokens": 2600,
+    "outputCostPerImage": 0.06
+  },
+  "us.amazon.nova-canvas-v1:0": {
     "provider": "bedrock",
     "mode": "image_generation",
     "maxInputTokens": 2600,
@@ -4881,7 +4845,7 @@
   },
   "gemini/deep-research-pro-preview-12-2025": {
     "provider": "gemini",
-    "mode": "image_generation",
+    "mode": "chat",
     "maxInputTokens": 65536,
     "inputCostPerToken": 0.000002,
     "outputCostPerToken": 0.000012,
@@ -6009,156 +5973,6 @@
     "inputCostPerImageToken": 0.000008,
     "outputCostPerImageToken": 0.000032
   },
-  "low/1024-x-1024/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.009
-  },
-  "low/1024-x-1536/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
-  "low/1536-x-1024/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
-  "medium/1024-x-1024/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.034
-  },
-  "medium/1024-x-1536/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.05
-  },
-  "medium/1536-x-1024/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.05
-  },
-  "high/1024-x-1024/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.133
-  },
-  "high/1024-x-1536/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.2
-  },
-  "high/1536-x-1024/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.2
-  },
-  "standard/1024-x-1024/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.009
-  },
-  "standard/1024-x-1536/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
-  "standard/1536-x-1024/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
-  "1024-x-1024/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.009
-  },
-  "1024-x-1536/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
-  "1536-x-1024/gpt-image-1.5": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
-  "low/1024-x-1024/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.009
-  },
-  "low/1024-x-1536/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
-  "low/1536-x-1024/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
-  "medium/1024-x-1024/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.034
-  },
-  "medium/1024-x-1536/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.05
-  },
-  "medium/1536-x-1024/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.05
-  },
-  "high/1024-x-1024/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.133
-  },
-  "high/1024-x-1536/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.2
-  },
-  "high/1536-x-1024/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.2
-  },
-  "standard/1024-x-1024/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.009
-  },
-  "standard/1024-x-1536/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
-  "standard/1536-x-1024/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
-  "1024-x-1024/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.009
-  },
-  "1024-x-1536/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
-  "1536-x-1024/gpt-image-1.5-2025-12-16": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.013
-  },
   "gpt-5": {
     "provider": "openai",
     "mode": "chat",
@@ -6684,33 +6498,6 @@
     ],
     "supportsReasoning": true
   },
-  "hd/1024-x-1024/dall-e-3": {
-    "provider": "openai",
-    "mode": "image_generation"
-  },
-  "hd/1024-x-1792/dall-e-3": {
-    "provider": "openai",
-    "mode": "image_generation"
-  },
-  "hd/1792-x-1024/dall-e-3": {
-    "provider": "openai",
-    "mode": "image_generation"
-  },
-  "high/1024-x-1024/gpt-image-1": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.167
-  },
-  "high/1024-x-1536/gpt-image-1": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.25
-  },
-  "high/1536-x-1024/gpt-image-1": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.25
-  },
   "jp.anthropic.claude-sonnet-4-5-20250929-v1:0": {
     "provider": "bedrock_converse",
     "mode": "chat",
@@ -6740,78 +6527,6 @@
       "text"
     ],
     "supportsReasoning": true
-  },
-  "low/1024-x-1024/gpt-image-1": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.011
-  },
-  "low/1024-x-1536/gpt-image-1": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.016
-  },
-  "low/1536-x-1024/gpt-image-1": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.016
-  },
-  "max-x-max/50-steps/stability.stable-diffusion-xl-v0": {
-    "provider": "bedrock",
-    "mode": "image_generation",
-    "maxInputTokens": 77,
-    "outputCostPerImage": 0.036
-  },
-  "max-x-max/max-steps/stability.stable-diffusion-xl-v0": {
-    "provider": "bedrock",
-    "mode": "image_generation",
-    "maxInputTokens": 77,
-    "outputCostPerImage": 0.072
-  },
-  "medium/1024-x-1024/gpt-image-1": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.042
-  },
-  "medium/1024-x-1536/gpt-image-1": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.063
-  },
-  "medium/1536-x-1024/gpt-image-1": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.063
-  },
-  "low/1024-x-1024/gpt-image-1-mini": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.005
-  },
-  "low/1024-x-1536/gpt-image-1-mini": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.006
-  },
-  "low/1536-x-1024/gpt-image-1-mini": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.006
-  },
-  "medium/1024-x-1024/gpt-image-1-mini": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.011
-  },
-  "medium/1024-x-1536/gpt-image-1-mini": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.015
-  },
-  "medium/1536-x-1024/gpt-image-1-mini": {
-    "provider": "openai",
-    "mode": "image_generation",
-    "inputCostPerImage": 0.015
   },
   "meta.llama2-13b-chat-v1": {
     "provider": "bedrock",
@@ -8563,18 +8278,6 @@
     "mode": "image_generation",
     "maxInputTokens": 77,
     "outputCostPerImage": 0.14
-  },
-  "standard/1024-x-1024/dall-e-3": {
-    "provider": "openai",
-    "mode": "image_generation"
-  },
-  "standard/1024-x-1792/dall-e-3": {
-    "provider": "openai",
-    "mode": "image_generation"
-  },
-  "standard/1792-x-1024/dall-e-3": {
-    "provider": "openai",
-    "mode": "image_generation"
   },
   "together-ai-21.1b-41b": {
     "provider": "together_ai",
